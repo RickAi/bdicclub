@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'Topics' => '社区',
+    'Topics' => '俱乐部',
     'Wiki' => 'Wiki',
     'Jobs' => '招聘',
     'Users' => '会员',
