@@ -18,8 +18,10 @@ class GithubUserDataReader
             'base_url' => 'https://api.github.com/users/',
         ]);
 
-        $query['client_id'] = getenv('client_id');
-        $query['client_secret'] = getenv('client_secret');
+//        $query['client_id'] = getenv('client_id');
+//        $query['client_secret'] = getenv('client_secret');
+        $query['client_id'] = 'eefd4111fbcb0e1d0fb9';
+        $query['client_secret'] = '3dce7078f20bc10a1f6bef559b81787648f1b372';
 
         return $client->get($username.'?'.http_build_query($query))->json();
     }
